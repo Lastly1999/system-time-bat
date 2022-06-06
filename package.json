@@ -4,5 +4,17 @@
   "main": "auto_time.js",
   "repository": "https://github.com/Lastly1999/system-time-bat.git",
   "author": "Lastly1999 <Lastly1999@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": "./auto_time.js",
+  "scripts": {
+    "start": "node auto_time.js",
+    "pkg": "pkg . -t  node12-win-x64 --out-path dist/"
+  },
+  "dependencies": {
+    "moment": "^2.29.3",
+    "node-cron": "^3.0.0",
+    "node-windows": "^1.0.0-beta.7",
+    "pkg": "^5.7.0",
+    "request": "^2.88.2"
+  }
 }
