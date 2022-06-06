@@ -1,0 +1,8 @@
+{
+  "name": "system-time-bat",
+  "version": "1.0.0",
+  "main": "auto_time.js",
+  "repository": "https://github.com/Lastly1999/system-time-bat.git",
+  "author": "Lastly1999 <Lastly1999@163.com>",
+  "license": "MIT"
+}
